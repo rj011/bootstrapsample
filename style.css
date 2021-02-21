@@ -1,0 +1,128 @@
+body{
+    font-size: 16 px;
+    color: white;
+    background-color: wheat;
+    position: relative;
+    
+}
+
+header
+{
+    padding: 0;
+    margin: 0;
+}
+.logo
+{
+    width: 150px;
+    height:150px;
+    margin: 10px;
+    float: left;
+    border:2 px solid black;
+    color: black;
+}
+.navbar
+{
+margin-top: 5px;
+background-color: burlywood;
+border-radius: 0;
+margin: 0;
+clear: right;
+
+
+}
+.navbar a
+{
+    color: black;
+    text-align: center;
+    
+    text-decoration: none;
+    text-transform: bold;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}
+.navbar a:hover
+{
+    background: white;
+    color:black;
+}
+
+
+.img-fluid
+{
+    margin-top: 15px;
+    padding: 0;
+    
+    
+}
+.header{
+    
+   margin-left: 650px;
+   margin-top: 200px;
+   font-size: 50px;
+   padding: 5px;
+    position:absolute;
+}
+#menu-tile, #specials-tile, #map-tile
+{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 100px;
+    position:relative;
+   
+    overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover
+{
+box-shadow: 0, 5px, 5px, 5px #000000;
+}
+
+#menu-tile
+{
+background: url("https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=700%2C636")  no-repeat;
+background-position:center;
+}
+
+#specials-tile
+{
+    background: url("https://images.immediate.co.uk/production/volatile/sites/30/2020/08/slow-cooked-pork-cider-sage-hotpot-f3f88ab.jpg?quality=90&resize=504,458") no-repeat;
+    background-position: center;
+}
+
+
+#map-tile
+{
+    
+    background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #000;
+    opacity: .8;
+}
+.panel-footer 
+{
+    background-color: #000;
+    opacity: .5;
+    margin-top: 100px;
+    
+    height: 50;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+#hours, #address
+{
+    line-height: 2;
+    
+}
